@@ -1,3 +1,10 @@
+/**
+ *  created by malevinsky
+ *  email: malevinskaya2000@gmail.com
+ *  telegram: @theos_deus
+ *  date: 10.05.2021
+ */
+
 package main
 
 import (
@@ -14,16 +21,16 @@ type Currency struct {
 	Timestamp int    `json:"timestamp"`
 	Base      string `json:"base"`
 	Date      string `json:"date"`
-	Rates     Rates `json:"rates"`
+	Rates     Rates  `json:"rates"`
 }
 
 type Rates struct {
-		USD float64 `json:"USD"`
-		AUD float64 `json:"AUD"`
-		CAD float64 `json:"CAD"`
-		PLN float64 `json:"PLN"`
-		MXN float64 `json:"MXN"`
-	}
+	USD float64 `json:"USD"`
+	AUD float64 `json:"AUD"`
+	CAD float64 `json:"CAD"`
+	PLN float64 `json:"PLN"`
+	MXN float64 `json:"MXN"`
+}
 
 func main() {
 
